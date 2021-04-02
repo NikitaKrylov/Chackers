@@ -1,0 +1,521 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+::selection {
+  color: white;
+  background: #78def5;
+}
+div.footer-box {
+  background: url("img/bg.png") no-repeat center top / cover;
+  width: 100%;
+  background-size: auto auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 1100px;
+}
+a.panel {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 100px;
+}
+li.menu {
+  display: inline-block;
+  padding-left: 60px;
+}
+header {
+  padding: 30px 8%;
+}
+ul.menu {
+  display: flex;
+  float: right;
+}
+a.panel:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(7, 102, 152);
+  display: inline;
+}
+img.menu {
+  height: 25px;
+}
+div.text-box {
+  display: inline-block;
+  padding: 170px 10%;
+}
+p.blue-text {
+  color: rgb(0, 142, 214);
+  text-transform: uppercase;
+  font-size: 22px;
+}
+p.default {
+  color: white;
+  font-size: 55px;
+  margin: 30px 0px;
+  line-height: 60px;
+}
+p {
+  margin: 0;
+}
+p.mini {
+  font-size: 22px;
+  color: rgb(145, 145, 145);
+}
+.Button {
+  width: 260px;
+  height: 90px;
+  margin: 125px 40px 0px 0px;
+  color: white;
+  background-color: rgb(0, 142, 214);
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.Button1 {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 125px 40px 0px 0px;
+  width: 260px;
+  height: 90px;
+}
+input.Button:active {
+  background-color: rgb(52, 237, 222);
+}
+input.Button1:active {
+  background-color: rgb(52, 237, 222);
+}
+
+.Button:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: 0.2s;
+}
+.Button1:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: 0.2s;
+}
+div.get_in_touch {
+  display: inline;
+  position: absolute;
+  height: 665px;
+  width: 520px;
+  background-color: white;
+  margin: 120px 0px 0px 15%;
+}
+div.get_in_touch p {
+  margin-left: 50px;
+}
+div.get_in_touch p.dark-text {
+  margin-top: 40px;
+  font-size: 30px;
+}
+div.get_in_touch input,
+textarea {
+  margin: 30px 0px 0px 70px;
+  width: 70%;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 5px;
+  font-size: 15px;
+  resize: none;
+}
+div.get_in_touch input {
+  height: 60px;
+}
+div.get_in_touch textarea {
+  height: 100px;
+}
+/* --------------------------------------------- */
+div.features {
+  background-color: white;
+  width: 100%;
+  height: 950px;
+  position: relative;
+}
+div.features div.container {
+  display: relative;
+  width: 30%;
+  margin: auto;
+  margin-top: 120px;
+}
+
+div.container p {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+div.container p.blue-text {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+hr.hr {
+  border: 1px solid rgb(0, 142, 214);
+  width: 100px;
+  background-color: rgb(0, 142, 214);
+}
+hr.hr-left {
+  border: 1px solid rgb(0, 142, 214);
+  width: 100px;
+  background-color: rgb(0, 142, 214);
+  float: left;
+  margin-top: -15px;
+}
+
+div.preview {
+  margin: auto;
+  position: absolute;
+  display: flex;
+  width: 100%;
+}
+div.box {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 120px;
+  padding: 100px;
+  min-width: 100px;
+}
+div.box p {
+  font-size: 30px;
+}
+/* -------------------------------------------------- */
+
+div.phone {
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+  margin-top: 120px;
+}
+div.phone img.phone {
+  margin-left: 10%;
+  height: 80%;
+}
+div.phone img.ico {
+  display: inline;
+}
+div.phone div.container {
+  display: inline-block;
+  max-width: 700px;
+  position: absolute;
+  margin-left: 10%;
+}
+div.phone div.container p {
+  text-align: left;
+  line-height: 60px;
+}
+div.phone div.container p.blue-text {
+  font-size: 23px;
+  margin-top: 100px;
+}
+div.phone div.container p.mini {
+  font-size: 26px;
+  line-height: 40px;
+  display: inline-block;
+}
+div.phone div.container p.category {
+  font-size: 22px;
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 900;
+}
+/* --------------------------------------------------- */
+div.information-phone {
+  background: url(img/cut.jpg) no-repeat center top / cover;
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+div.information-phone div.container {
+  width: 30%;
+  margin: 140px 180px 0px 10%;
+  height: 660px;
+}
+div.information-phone div.container hr.hr {
+  float: left;
+}
+
+div.information-phone div.container p {
+  text-align: left;
+  line-height: 60px;
+}
+div.information-phone div.container p.mini {
+  font-size: 26px;
+  margin-top: 80px;
+}
+div.information-phone img {
+  display: inline-block;
+  margin-top: 90px;
+  height: 70%;
+}
+/* --------------------------------------------------- */
+div.Plans {
+  background: url(img/Warstwa\ 8.jpg) no-repeat center top / cover;
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+div.title {
+  position: relative;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  display: block;
+  text-align: center;
+}
+div.Plans div.title p {
+  font-weight: 100px;
+}
+div.Plans div.message {
+  width: 40%;
+  height: 450px;
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 80px;
+}
+div.Plans div.message p {
+  display: inline-block;
+  max-width: 90%;
+  color: white;
+  font-size: 26px;
+}
+div.Plans div.message img {
+  display: inline;
+  margin: 30px 45px 0px 0px;
+  height: 20%;
+}
+p.bold {
+  text-transform: uppercase;
+  margin-left: 13.5%;
+}
+/* -------------------- */
+div.footer-line {
+  width: 100%;
+  height: 320px;
+  background-color: rgb(21, 20, 26);
+}
+
+div.footer-line .container p {
+  font-size: 50px;
+  max-width: 100%;
+  margin-bottom: 0px;
+  color: white;
+}
+
+div.footer-line .container {
+  width: 80%;
+  display: flex;
+  padding: 5% 10%;
+  float: right;
+}
+div.footer-line .container input {
+  border-radius: 5px;
+  display: inline-block;
+  /* margin: 0px; */
+}
+div.footer-line .container .Button {
+  margin: 0px 0px 0px 5%;
+}
+
+div.footer-line .container .Button1 {
+  margin: 0px 0px 0px 17%;
+}
+/* ------------------------------------ */
+.Price-list {
+  width: 100%;
+  height: 1200px;
+  background-color: white;
+}
+.price:hover .naming p {
+  color: rgb(0, 142, 214);
+}
+.price:hover .cash p {
+  color: white;
+}
+.price:hover .cash {
+  background-color: rgb(31, 155, 218);
+}
+.price:hover .text-container .Button1 {
+  background-color: rgb(31, 155, 218);
+  color: white;
+}
+.Price-list .default {
+  color: black;
+}
+.Price-list div.container {
+  display: flex;
+  float: right;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Price-list div.container div.price {
+  width: 19%;
+  height: 660px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+div.price .naming {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin: 0px;
+  display: inline-block;
+}
+.Price-list div.container div.price .naming p {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+div.price div.cash {
+  width: 100%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  display: inline-block;
+  height: 230px;
+}
+div.price .cash p {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+div.price .cash p.mini {
+  text-align: center;
+
+  font-size: 20px;
+  margin: 0px auto 0px auto;
+  max-width: 70%;
+}
+div.price .text-container {
+  width: 80%;
+  margin: 20px auto 0px auto;
+}
+div.price div.text-container p {
+  font-size: 25px;
+  display: inline-block;
+  position: flex;
+}
+
+div.price div.text-container input.Button1 {
+  margin: 0px auto 0px auto;
+  display: block;
+  border: 1px solid rgb(145, 145, 145);
+  color: rgb(0, 142, 214);
+  width: 70%;
+  height: 70px;
+}
+/* -------------------------- */
+
+div.Contact {
+  width: 90%;
+  height: 1100px;
+  background-color: rgb(237, 237, 237);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+div.Contact div.title p.default {
+  color: black;
+}
+div.Contact div.information {
+  width: 100%;
+  display: flex;
+  float: left;
+}
+div.Contact div.information div.block {
+  width: 20%;
+  height: 180px;
+  margin: 80px auto 0px auto;
+}
+div.Contact div.information div.block img {
+  height: 25%;
+  display: flex;
+  margin: 0px auto 30px auto;
+}
+div.Contact div.information div.block p {
+  text-align: center;
+  min-width: 100%;
+  font-size: 26px;
+}
+div.Contact div.message {
+  background-color: rgb(21, 20, 26);
+  position: relative;
+  margin-top: 18%;
+  z-index: 1;
+  height: 450px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 5% 2% 5%;
+  display: flex;
+}
+
+div.Contact div.message input {
+  height: 80px;
+  border: 1px solid rgb(145, 145, 145);
+  width: 80%;
+  background: transparent;
+  border-radius: 5px;
+  margin: 5% 0px 0px 2%;
+  font-size: 24px;
+  color: white;
+}
+
+div.Contact div.message div.container {
+  display: inline-block;
+  width: 55%;
+}
+div.Contact div.message textarea {
+  margin: 2.5% 0px;
+  width: 100%;
+  height: 70%;
+  background: transparent;
+  color: white;
+  font-size: 24px;
+}
+div.Contact div.message input.Button {
+  display: block;
+  margin: 20px auto 0px auto;
+  background-color: rgb(31, 155, 218);
+  width: 50%;
+  font-size: 18px;
+}
+/* ---------------------------------------- */
+div.map {
+  background: url(img/Warstwa14.jpg) no-repeat center top / cover;
+  width: 100%;
+  height: 800px;
+}
+footer {
+  background-color: rgb(21, 20, 26);
+  width: 50%;
+  height: 100px;
+  padding: 80px 25%;
+}
+footer div.container {
+  width: auto;
+  height: 100%;
+}
+footer div.container div.box {
+  margin: 25px 0px;
+  padding: 0px;
+}
+footer div.container div.box img {
+  height: 20px;
+  margin: 0px 40px;
+}
+footer div.container p {
+  font-size: 20px;
+}
